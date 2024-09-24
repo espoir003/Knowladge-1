@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- Title -->
+	<title>FastClock - Clock and Watch Mobile App Template ( Bootstrap + PWA ) | Dexignzone</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="Indiancoder">
+	<meta name="robots" content="index, follow">
+
+	<meta name="keywords" content="FastClock app template, clock store template, watch store app, Bootstrap watch template, PWA mobile app, responsive eCommerce, clock app design, mobile shopping template, FastClock Bootstrap PWA, retail mobile app, FastClock eCommerce.">   
+
+	<meta name="description" content="FastClock is a Bootstrap + PWA mobile app template designed for clock and watch stores, offering a sleek, responsive, and user-friendly shopping experience.">
+
+	<meta property="og:title" content="FastClock - Clock and Watch Mobile App Template ( Bootstrap + PWA ) | Dexignzone">
+	<meta property="og:description" content="FastClock is a Bootstrap + PWA mobile app template designed for clock and watch stores, offering a sleek, responsive, and user-friendly shopping experience.">
+
+	<meta property="og:image" content="https://fastclock.dexignzone.com/mobile/social-image.png">
+	<meta name="format-detection" content="telephone=no">
+
+	<!-- Twitter Specific -->
+	<meta name="twitter:title" content="FastClock - Clock and Watch Mobile App Template ( Bootstrap + PWA ) | Dexignzone">
+	<meta name="twitter:description" content="FastClock is a Bootstrap + PWA mobile app template designed for clock and watch stores, offering a sleek, responsive, and user-friendly shopping experience.">
+	<meta name="twitter:image" content="https://fastclock.dexignzone.com/mobile/social-image.png">
+	<meta name="twitter:card" content="summary_large_image">
+
+	<!-- Mobile Specific -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui, viewport-fit=cover">
+	
+	<!-- Favicons Icon -->
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/app-logo/favicon.png">
+	
+	<!-- PWA Version -->
+	<link rel="manifest" href="manifest.json">
+    
+    <!-- Global CSS -->
+	<link href="assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/vendor/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css">
+	<link rel="stylesheet" href="assets/vendor/nouislider/nouislider.min.css">
+	<link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css">
+    
+	<!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+    <!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>   
+<body>
+<div class="page-wrapper">
+    
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="loader">
+			<div class="spinner-border text-primary" role="status">
+				<span class="visually-hidden">Loading...</span>
+			</div>
+		</div>
+	</div>
+    <!-- Preloader end-->
+	
+	<!-- Header -->
+	<header class="header header-fixed">
+		<div class="header-content">
+			<div class="left-content">
+				<a href="javascript:void(0);" class="toggle-icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar">
+					<svg width="22" height="15" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<rect width="22" height="1.5" fill="var(--title)"/>
+						<rect y="6.5" width="22" height="1.5" fill="var(--title)"/>
+						<rect y="13" width="22" height="1.5" fill="var(--title)"/>
+					</svg>
+				</a>
+			</div>
+			<div class="mid-content">
+				<div class="header-logo">
+					<img class="logo-dark" src="assets/images/app-logo/logo.png" alt="">
+					<img class="logo-white d-none" src="assets/images/app-logo/logo-white.png" alt="">
+				</div>
+			</div>
+			<div class="right-content">
+				<a href="notification.html" class="dz-icon ms-auto"><i class="feather icon-bell fs-6"></i></a>
+			</div>
+		</div>
+	</header>
+	<!-- Header -->
+	
+	<!-- Sidebar -->
+    <div class="offcanvas offcanvas-start sidebar" tabindex="-1" id="offcanvasSidebar" aria-labelledby="offcanvasSidebarLabel">
+		<div class="offcanvas-header">
+			<a href="profile.html" class="author-box">
+				<div class="dz-media">
+					<img src="assets/images/avatar/1.png" alt="author-image">
+				</div>
+				<div class="dz-info">
+					<h5 class="name font-2">Roopa</h5>
+					<span class="mail">example@gmail.com</span>
+				</div>
+			</a>
+		</div>
+		<div class="offcanvas-body">
+			<div class="sidebar-list">
+				<ul>
+					<li>
+						<a href="index.html" class="item-link">
+							<div class="dz-icon">
+								<i class="fi fi-rr-home"></i>
+							</div>
+							<span class="title">Home</span>
+						</a>
+					</li>
+					<li>
+						<a href="products.html" class="item-link">
+							<div class="dz-icon">
+								<i class="fi fi-rr-shopping-bag"></i>
+							</div>
+							<span class="title">Products</span>
+						</a>
+					</li>
+					<li>
+						<a href="components.html" class="item-link">
+							<div class="dz-icon">
+								<i class="fi fi-rr-apps-add"></i>
+							</div>
+							<span class="title">Components</span>
+						</a>
+					</li>
+					<li>
+						<a href="pages.html" class="item-link">
+							<div class="dz-icon">
+								<i class="fi fi-rr-diamond"></i>
+							</div>
+							<span class="title">Pages</span>
+						</a>
+					</li>
+					<li>
+						<a href="products.html" class="item-link">
+							<div class="dz-icon">
+								<i class="fi fi-rr-star"></i>
+							</div>
+							<span class="title">Featured</span>
+						</a>
+					</li>
+					<li>
+						<a href="wishlist.html" class="item-link">
+							<div class="dz-icon">
+								<i class="fi fi-rr-heart"></i>
+							</div>
+							<span class="title">Wishlist</span>
+						</a>
+					</li>
+					<li>
+						<a href="my-order.html" class="item-link">
+							<div class="dz-icon">
+								<i class="fi fi-rr-receipt"></i>
+							</div>
+							<span class="title">Orders</span>
+						</a>
+					</li>
+					<li>
+						<a href="cart.html" class="item-link">
+							<div class="dz-icon">
+								<i class="fi fi-rr-shopping-cart"></i>
+							</div>
+							<span class="title">My Cart</span>
+						</a>
+					</li>
+					<li>
+						<a href="profile.html" class="item-link">
+							<div class="dz-icon">
+								<i class="fi fi-rr-user"></i>
+							</div>
+							<span class="title">Profile</span>
+						</a>
+					</li>
+					<li>
+						<a href="chat-list.html" class="item-link">
+							<div class="dz-icon">
+								<i class="fi fi-rr-comment"></i>
+							</div>
+							<span class="title">Chat List</span>
+						</a>
+					</li>
+					<li>
+						<a href="welcome.html" class="item-link">
+							<div class="dz-icon">
+								<i class="fi fi-rr-exit"></i>
+							</div>
+							<span class="title">Logout</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- Theme Version -->
+			<div class="dz-theme">
+				<h5 class="title mb-0 font-2">Theme Option</h5>
+				<button id="theme-toggle" class="dz-icon icon-sm rounded-2 dz-theme-mode dark">
+					<i class="icon-light fas fa-sun"></i>
+					<i class="icon-dark fas fa-moon"></i>
+				</button>
+			</div>
+			<!-- Theme Version -->
+		</div>
+		<div class="offcanvas-footer">
+			<div class="app-info">
+				<h6 class="name"><span>FastClock</span> Clock and Watch Store</h6>
+				<span class="ver-info">App Version 1.0</span>
+			</div>
+		</div>
+	</div>
+    <!-- Sidebar End -->
+	
+	<!-- Main Content Start -->
+	<main class="page-content space-top space-bottom2">
+		<div class="container">
+			<form class="search-box">
+				<div class="input-group style-2">
+					<span class="input-group-text start-0 bg-transparent">
+						<i class="flaticon flaticon-search-1 fs-7"></i>
+					</span>
+					<input type="search" class="form-control" placeholder="Search Something..." aria-label="Search">
+					<span class="input-group-text bg-transparent" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom1" aria-controls="offcanvasBottom1">
+						<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M2.25 3L7.5 3" stroke="var(--title)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M10.5 3L15.75 3" stroke="var(--title)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M2.25 9L9 9" stroke="var(--title)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M12 9L15.75 9" stroke="var(--title)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M2.25 15L6 15" stroke="var(--title)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M9 15L15.75 15" stroke="var(--title)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M7.5 0.75L7.5 5.25" stroke="var(--title)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M12 6.75L12 11.25" stroke="var(--title)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M6 12.75L6 17.25" stroke="var(--title)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+					</span>
+				</div>
+			</form>
+			<!-- Banner -->
+			<div class="dz-banner">
+				<div class="swiper banner-swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="inner-content" style="background-image: url('assets/images/banner/bnr1.png');">
+								<div class="left-content">
+									<h2 class="banner-title">Top Brands watch for the real gentleman</h2>
+									<a href="javascript:void(0);" class="btn btn-sm btn-white">Explore More</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="inner-content" style="background-image: url('assets/images/banner/bnr2.png');">
+								<div class="left-content">
+									<h2 class="banner-title">Top Brands watch for the real gentleman</h2>
+									<a href="javascript:void(0);" class="btn btn-sm btn-white">Explore More</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="inner-content" style="background-image: url('assets/images/banner/bnr3.png');">
+								<div class="left-content">
+									<h2 class="banner-title">Top Brands watch for the real gentleman</h2>
+									<a href="javascript:void(0);" class="btn btn-sm btn-white">Explore More</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="inner-content" style="background-image: url('assets/images/banner/bnr1.png');">
+								<div class="left-content">
+									<h2 class="banner-title">Top Brands watch for the real gentleman</h2>
+									<a href="javascript:void(0);" class="btn btn-sm btn-white">Explore More</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="inner-content" style="background-image: url('assets/images/banner/bnr2.png');">
+								<div class="left-content">
+									<h2 class="banner-title">Top Brands watch for the real gentleman</h2>
+									<a href="javascript:void(0);" class="btn btn-sm btn-white">Explore More</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="inner-content" style="background-image: url('assets/images/banner/bnr3.png');">
+								<div class="left-content">
+									<h2 class="banner-title">Top Brands watch for the real gentleman</h2>
+									<a href="javascript:void(0);" class="btn btn-sm btn-white">Explore More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Banner -->
+			
+			<!-- Products -->
+			<div class="title-bar mb-2">
+				<h5 class="title">New Arrival</h5>
+			</div>
+			<div class="swiper category-slide swiper-center mb-2">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">	
+						<a href="category.html" class="category-btn">All</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="category.html" class="category-btn">Child</a>
+					</div>
+					<div class="swiper-slide">	
+						<a href="category.html" class="category-btn">Men</a>
+					</div>
+					<div class="swiper-slide">	
+						<a href="category.html" class="category-btn">Women</a>
+					</div>
+					<div class="swiper-slide">	
+						<a href="category.html" class="category-btn">Dress</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="category.html" class="category-btn">unisex</a>
+					</div>
+				</div>
+			</div>
+			<div class="row g-3">
+				<div class="col-6 col-sm-4 col-lg-2">
+					<div class="dz-card style-1">
+						<div class="dz-media">
+							<a href="javascript:void(0);" class="item-bookmark icon-left">
+								<i class="fi fi-sr-heart"></i>
+							</a>
+							<a href="product-detail.html">
+								<img src="assets/images/product/product1/pic1.png" alt="">
+							</a>
+						</div>
+						<div class="dz-content">
+							<h6 class="title"><a href="product-detail.html">Poze by Sonata Quartz Analog</a></h6>
+							<ul class="dz-meta">
+								<li class="dz-price">$142.20</li>
+							</ul>
+						</div>
+					</div>	
+				</div>
+				<div class="col-6 col-sm-4 col-lg-2">
+					<div class="dz-card style-1">
+						<div class="dz-media">
+							<a href="javascript:void(0);" class="item-bookmark icon-left">
+								<i class="fi fi-sr-heart"></i>
+							</a>
+							<a href="product-detail.html">
+								<img src="assets/images/product/product1/pic2.png" alt="">
+							</a>
+						</div>
+						<div class="dz-content">
+							<h6 class="title"><a href="product-detail.html">Poze by Sonata Quartz Analog</a></h6>
+							<ul class="dz-meta">
+								<li class="dz-price">$142.20</li>
+							</ul>
+						</div>
+					</div>	
+				</div>
+				<div class="col-6 col-sm-4 col-lg-2">
+					<div class="dz-card style-1">
+						<div class="dz-media">
+							<a href="javascript:void(0);" class="item-bookmark icon-left">
+								<i class="fi fi-sr-heart"></i>
+							</a>
+							<a href="product-detail.html">
+								<img src="assets/images/product/product1/pic3.png" alt="">
+							</a>
+						</div>
+						<div class="dz-content">
+							<h6 class="title"><a href="product-detail.html">Poze by Sonata Quartz Analog</a></h6>
+							<ul class="dz-meta">
+								<li class="dz-price">$142.20</li>
+							</ul>
+						</div>
+					</div>	
+				</div>
+				<div class="col-6 col-sm-4 col-lg-2">
+					<div class="dz-card style-1">
+						<div class="dz-media">
+							<a href="javascript:void(0);" class="item-bookmark icon-left">
+								<i class="fi fi-sr-heart"></i>
+							</a>
+							<a href="product-detail.html">
+								<img src="assets/images/product/product1/pic4.png" alt="">
+							</a>
+						</div>
+						<div class="dz-content">
+							<h6 class="title"><a href="product-detail.html">Poze by Sonata Quartz Analog</a></h6>
+							<ul class="dz-meta">
+								<li class="dz-price">$142.20</li>
+							</ul>
+						</div>
+					</div>	
+				</div>
+				<div class="col-6 col-sm-4 col-lg-2">
+					<div class="dz-card style-1">
+						<div class="dz-media">
+							<a href="javascript:void(0);" class="item-bookmark icon-left">
+								<i class="fi fi-sr-heart"></i>
+							</a>
+							<a href="product-detail.html">
+								<img src="assets/images/product/product1/pic5.png" alt="">
+							</a>
+						</div>
+						<div class="dz-content">
+							<h6 class="title"><a href="product-detail.html">Poze by Sonata Quartz Analog</a></h6>
+							<ul class="dz-meta">
+								<li class="dz-price">$142.20</li>
+							</ul>
+						</div>
+					</div>	
+				</div>
+				<div class="col-6 col-sm-4 col-lg-2">
+					<div class="dz-card style-1">
+						<div class="dz-media">
+							<a href="javascript:void(0);" class="item-bookmark icon-left">
+								<i class="fi fi-sr-heart"></i>
+							</a>
+							<a href="product-detail.html">
+								<img src="assets/images/product/product1/pic6.png" alt="">
+							</a>
+						</div>
+						<div class="dz-content">
+							<h6 class="title"><a href="product-detail.html">Poze by Sonata Quartz Analog</a></h6>
+							<ul class="dz-meta">
+								<li class="dz-price">$142.20</li>
+							</ul>
+						</div>
+					</div>	
+				</div>
+				<div class="col-6 col-sm-4 col-lg-2">
+					<div class="dz-card style-1">
+						<div class="dz-media">
+							<a href="javascript:void(0);" class="item-bookmark icon-left">
+								<i class="fi fi-sr-heart"></i>
+							</a>
+							<a href="product-detail.html">
+								<img src="assets/images/product/product1/pic7.png" alt="">
+							</a>
+						</div>
+						<div class="dz-content">
+							<h6 class="title"><a href="product-detail.html">Poze by Sonata Quartz Analog</a></h6>
+							<ul class="dz-meta">
+								<li class="dz-price">$142.20</li>
+							</ul>
+						</div>
+					</div>	
+				</div>
+				<div class="col-6 col-sm-4 col-lg-2">
+					<div class="dz-card style-1">
+						<div class="dz-media">
+							<a href="javascript:void(0);" class="item-bookmark icon-left">
+								<i class="fi fi-sr-heart"></i>
+							</a>
+							<a href="product-detail.html">
+								<img src="assets/images/product/product1/pic8.png" alt="">
+							</a>
+						</div>
+						<div class="dz-content">
+							<h6 class="title"><a href="product-detail.html">Poze by Sonata Quartz Analog</a></h6>
+							<ul class="dz-meta">
+								<li class="dz-price">$142.20</li>
+							</ul>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<!-- Products -->
+		</div>
+	</main>
+	<!-- Main Content End -->
+	
+	<!-- Menubar -->
+	<div class="menubar-area footer-fixed" style="background-image: url('assets/images/menu-shape.svg');">
+		<div class="menubar-nav">
+			<a href="index.html" class="nav-link active">
+				<i class="fi fi-rr-house-chimney-window"></i>
+			</a>
+			<a href="wishlist.html" class="nav-link">
+				<i class="fi fi-rr-heart"></i>
+			</a>
+			<a href="cart.html" class="nav-link cart">
+				<i class="fi fi-rr-shopping-cart"></i>
+			</a>
+			<a href="category.html" class="nav-link">
+				<i class="fi fi-rr-document-signed"></i>
+			</a>
+			<a href="profile.html" class="nav-link">
+				<i class="fi fi-rr-user"></i>
+			</a>
+		</div>
+	</div>
+	<!-- Menubar -->
+	
+	<!-- PWA Offcanvas -->
+	<!-- <div class="offcanvas offcanvas-bottom pwa-offcanvas">
+		<div class="container p-0">
+			<div class="offcanvas-body">
+				<div class="logo-area">
+					<img class="logo-dark" src="assets/images/app-logo/logo.png" alt="">
+					<img class="logo-light d-none" src="assets/images/app-logo/logo-white.png" alt="">
+				</div>
+				<h5 class="title">FastClock - Clock and Watch Mobile App Template</h5>
+				<p class="pwa-text">Install "FastClock" to your home screen for easy access, just like any other app</p>
+				<div class="d-grid gap-2">
+					<button type="button" class="btn btn-primary pwa-btn rounded-pill dz-shadow">Add to Home Screen</button>
+					<button type="button" class="btn pwa-close btn-secondary rounded-pill">Maybe later</button>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<!-- PWA Offcanvas End -->
+	<!-- Filter -->
+    <div class="offcanvas offcanvas-bottom filter-offcanvas pb-0" tabindex="-1" id="offcanvasBottom1" aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Filters</h5>
+            <button type="button" class="btn-close style-2 ms-auto m-0" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fi fi-rr-cross"></i></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="filter-inner-content mb-4">
+                <div class="title-bar mb-2">
+					<h5 class="sub-title flex-1">Brands</h5>
+					<a href="products.html">See All</a>
+				</div> 
+                <div class="d-flex flex-wrap gap-2">
+					<div class="form-check custom-check">
+                        <input type="checkbox" class="btn-check" id="btn-check5" autocomplete="off" checked>
+                        <label class="btn btn-xs px-3" for="btn-check5">Adidas</label>
+					</div>
+					<div class="form-check custom-check">
+                        <input type="checkbox" class="btn-check" id="btn-check6" autocomplete="off">
+                        <label class="btn btn-xs px-3" for="btn-check6">Reebok</label>
+					</div>
+					<div class="form-check custom-check">
+                        <input type="checkbox" class="btn-check" id="btn-check7" autocomplete="off">
+                        <label class="btn btn-xs px-3" for="btn-check7">Zara</label>
+					</div>
+					<div class="form-check custom-check">
+                        <input type="checkbox" class="btn-check" id="btn-check8" autocomplete="off">
+                        <label class="btn btn-xs px-3" for="btn-check8">Gucci</label>
+					</div>
+					<div class="form-check custom-check">
+                        <input type="checkbox" class="btn-check" id="btn-check9" autocomplete="off">
+                        <label class="btn btn-xs px-3" for="btn-check9">Vogue</label>
+					</div>
+				</div>
+            </div>
+            <div class="filter-inner-content mb-4">
+                <div class="title-bar mb-2">
+					<h5 class="sub-title flex-1">Categories:</h5>
+					<a href="products.html">See All</a>
+				</div> 
+                <div class="d-flex flex-wrap gap-2">
+					<div class="form-check custom-check">
+                        <input type="checkbox" class="btn-check" id="btn-check10" autocomplete="off" checked>
+                        <label class="btn btn-xs px-3" for="btn-check10">All</label>
+					</div>
+					<div class="form-check custom-check">
+                        <input type="checkbox" class="btn-check" id="btn-check11" autocomplete="off">
+                        <label class="btn btn-xs px-3" for="btn-check11">Child</label>
+					</div>
+					<div class="form-check custom-check">
+                        <input type="checkbox" class="btn-check" id="btn-check12" autocomplete="off">
+                        <label class="btn btn-xs px-3" for="btn-check12">Men</label>
+					</div>
+					<div class="form-check custom-check">
+                        <input type="checkbox" class="btn-check" id="btn-check13" autocomplete="off">
+                        <label class="btn btn-xs px-3" for="btn-check13">Women</label>
+					</div>
+					<div class="form-check custom-check">
+                        <input type="checkbox" class="btn-check" id="btn-check14" autocomplete="off">
+                        <label class="btn btn-xs px-3" for="btn-check14"> Dress</label>
+					</div>
+					<div class="form-check custom-check">
+                        <input type="checkbox" class="btn-check" id="btn-check15" autocomplete="off">
+                        <label class="btn btn-xs px-3" for="btn-check15">Jackets</label>
+					</div>
+					<div class="form-check custom-check">
+                        <input type="checkbox" class="btn-check" id="btn-check16" autocomplete="off">
+                        <label class="btn btn-xs px-3" for="btn-check16"> Jeans</label>
+					</div>
+				</div>
+            </div>
+            <div class="filter-inner-content mb-4">
+                <div class="title-bar">
+					<h5 class="sub-title flex-1">Size:</h5>
+					<a href="products.html">See All</a>
+				</div> 
+                <div class="d-flex flex-wrap gap-2">
+					<div class="form-check custom-check">
+                        <input type="checkbox" class="btn-check" id="btn-check17" autocomplete="off" checked="">
+                        <label class="btn btn-xs px-3" for="btn-check17">Small</label>
+					</div>
+					<div class="form-check custom-check">
+                        <input type="checkbox" class="btn-check" id="btn-check18" autocomplete="off">
+                        <label class="btn btn-xs px-3" for="btn-check18">Medium</label>
+					</div>
+					<div class="form-check custom-check">
+                        <input type="checkbox" class="btn-check" id="btn-check19" autocomplete="off">
+                        <label class="btn btn-xs px-3" for="btn-check19">Large</label>
+					</div>
+					<div class="form-check custom-check">
+                        <input type="checkbox" class="btn-check" id="btn-check20" autocomplete="off">
+                        <label class="btn btn-xs px-3" for="btn-check20">XL</label>
+					</div>
+					<div class="form-check custom-check">
+                        <input type="checkbox" class="btn-check" id="btn-check21" autocomplete="off">
+                        <label class="btn btn-xs px-3" for="btn-check21">2Xl</label>
+					</div>
+				</div>
+            </div>
+            <div class="filter-inner-content mb-4">
+                <div class="title-bar mb-5">
+					<h5 class="sub-title flex-1">Price:</h5>
+				</div> 
+                <div class="range-slider style-1">
+                    <div id="slider-tooltips"></div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas-footer border-0 pt-0">
+            <a href="javascript:void(0);" class="btn bg-light text-dark w-100 rounded-pill">Reset</a>
+            <a href="javascript:void(0);" class="btn btn-primary w-100 rounded-pill" data-bs-dismiss="offcanvas">Apply</a>
+        </div>
+    </div>
+    <!-- Filter -->
+</div>  
+<!--**********************************
+    Scripts
+***********************************-->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/wnumb/wNumb.js"></script><!-- WNUMB -->
+<script src="assets/vendor/nouislider/nouislider.min.js"></script><!-- NOUSLIDER MIN JS-->
+<script src="assets/js/noui-slider.init.js"></script><!-- NOUSLIDER MIN JS-->
+<script src="assets/js/ic.carousel.js"></script>
+<script src="assets/js/settings.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

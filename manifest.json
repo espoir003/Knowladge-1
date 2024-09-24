@@ -1,0 +1,16 @@
+{
+  "background_color": "#FF721D",
+  "description": "FastClock - Clock and Watch Mobile App Template ( Bootstrap + PWA ) | Dexignzone",
+  "display": "standalone",
+  "orientation": "portrait",
+  "icons": [
+	{
+	  "src": "assets/images/app-logo/pwa150x150.png",
+	  "sizes": "150x150",
+	  "type": "image/png"
+	}
+  ],
+  "name": "FastClock - Clock and Watch Mobile App Template",
+  "short_name": "FastClock",
+  "start_url": "index.html"
+}

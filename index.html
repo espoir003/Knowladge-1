@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    
+    <!-- Titre -->
+    <title>Miracle Knowledge | Bienvenue</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Felitech">
+    <meta name="robots" content="index, follow">
+
+    <meta name="keywords" content="Miracle Knowledge, organisation d'événements, surprises, services en ligne, PWA, application mobile, tableau de bord, gestion des abonnements.">
+
+    <meta name="description" content="Miracle Knowledge est une application dédiée à la gestion des services de surprises et d'événements, offrant une expérience fluide et conviviale pour les clients et les partenaires.">
+
+    <meta property="og:title" content="Miracle Knowledge">
+
+    <meta property="og:description" content="Miracle Knowledge est une plateforme en ligne pour l'organisation de surprises et d'événements, où les partenaires peuvent s'abonner et gérer leurs prestations.">
+
+    <meta property="og:image" content="https://votre-site.com/assets/images/app-logo/social-image.png">
+
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Twitter Specific -->
+    <meta name="twitter:title" content="Miracle Knowledge">
+
+    <meta name="twitter:description" content="Miracle Knowledge, une plateforme en ligne pour les services de surprises et d'événements.">
+
+    <meta name="twitter:image" content="https://votre-site.com/assets/images/app-logo/social-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Mobile Specific -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui, viewport-fit=cover">
+
+    <!-- Icône de la page -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/app-logo/favicon.png">
+    
+    <!-- Feuilles de style -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+    <!-- Animations -->
+    <link rel="stylesheet" href="assets/vendor/wow/css/libs/animate.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+</head>   
+<body>
+<div class="page-wrapper full-height">
+    
+    <!-- splash -->        
+    <div class="loader-screen" id="splashscreen">
+        <div class="main-screen">
+            <div class="loader">
+                <div class="logo">
+                    <img src="assets/images/app-logo/2.png" style="height: 250px;width: 250px;" class="logo-dark wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.4s" alt="">
+                    <img src="assets/images/app-logo/2.png" style="height: 250px;width: 250px;"  class="logo-light wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.4s" alt="">
+                </div>
+            </div>
+        </div> 
+    </div>               
+
+    <!-- Welcome Start -->
+    <main class="page-content">
+        <div class="container p-0 position-relative">
+            <div class="welcome-inner" style="background-image: url('assets/images/3.jpg');">
+                <!-- Zone inférieure -->
+                <div class="swiper get-started">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slide-info">
+                                <div class="started">
+                                    <h2 class="title" data-swiper-parallax="-300">Découvrez un monde de surprises</h2>
+                                    <p data-swiper-parallax="-100">Planifiez des événements inoubliables, nous nous occupons du reste.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-info">
+                                <div class="started">
+                                    <h2 class="title" data-swiper-parallax="-300">Services exclusifs à portée de main</h2>
+                                    <p data-swiper-parallax="-100">Réservez des professionnels qualifiés pour surprendre vos proches.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-info">
+                                <div class="started">
+                                    <h2 class="title" data-swiper-parallax="-300">Accès simple et rapide</h2>
+                                    <p data-swiper-parallax="-100">Gérez vos abonnements et services en quelques clics.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-btn">
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <!-- Zone inférieure -->
+            </div>
+            <div class="bottom-btn style-2">
+                <a href="sign-in.html" class="btn btn-flex w-100 btn-lg btn-primary rounded-pill dz-shadow">Commencer</a>
+            </div>
+        </div>
+    </main>
+    <!-- Welcome End -->
+    
+</div>
+<!--**********************************
+    Scripts
+***********************************-->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/wow/dist/wow.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/ic.carousel.js"></script>
+<script src="assets/js/settings.js"></script>
+<script src="assets/js/custom.js"></script>
+<script>
+    new WOW().init();
+    var wow = new WOW(
+    {
+      boxClass:     'wow',      // animated element css class (default is wow)
+      animateClass: 'animated', // animation css class (default is animated)
+      offset:       50,          // distance to the element when triggering the animation (default is 0)
+      mobile:       false       // trigger animations on mobile devices (true is default)
+    });
+    wow.init();    
+</script>
+</body>
+</html>

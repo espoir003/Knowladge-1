@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- Title -->
+	<title>FastClock - Clock and Watch Mobile App Template ( Bootstrap + PWA ) | Dexignzone</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="Indiancoder">
+	<meta name="robots" content="index, follow">
+
+	<meta name="keywords" content="FastClock app template, clock store template, watch store app, Bootstrap watch template, PWA mobile app, responsive eCommerce, clock app design, mobile shopping template, FastClock Bootstrap PWA, retail mobile app, FastClock eCommerce.">   
+
+	<meta name="description" content="FastClock is a Bootstrap + PWA mobile app template designed for clock and watch stores, offering a sleek, responsive, and user-friendly shopping experience.">
+
+	<meta property="og:title" content="FastClock - Clock and Watch Mobile App Template ( Bootstrap + PWA ) | Dexignzone">
+
+	<meta property="og:description" content="FastClock is a Bootstrap + PWA mobile app template designed for clock and watch stores, offering a sleek, responsive, and user-friendly shopping experience.">
+
+	<meta property="og:image" content="https://fastclock.dexignzone.com/mobile/social-image.png">
+
+	<meta name="format-detection" content="telephone=no">
+
+	<!-- Twitter Specific -->
+	<meta name="twitter:title" content="FastClock - Clock and Watch Mobile App Template ( Bootstrap + PWA ) | Dexignzone">
+
+	<meta name="twitter:description" content="FastClock is a Bootstrap + PWA mobile app template designed for clock and watch stores, offering a sleek, responsive, and user-friendly shopping experience.">
+
+	<meta name="twitter:image" content="https://fastclock.dexignzone.com/mobile/social-image.png">
+	<meta name="twitter:card" content="summary_large_image">
+
+	<!-- Mobile Specific -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui, viewport-fit=cover">
+
+	<!-- Favicons Icon -->
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/app-logo/favicon.png">
+    
+    <!-- Global CSS -->
+	<link href="assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/vendor/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css">
+	<link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css">
+    
+	<!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+    <!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>   
+<body>
+<div class="page-wrapper">
+    
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="loader">
+			<div class="spinner-border text-primary" role="status">
+				<span class="visually-hidden">Loading...</span>
+			</div>
+		</div>
+	</div>
+    <!-- Preloader end-->
+	
+	<!-- Header -->
+	<header class="header header-fixed style-2">
+		<div class="header-content">
+            <div class="left-content">
+                <a href="javascript:void(0);" class="back-btn dz-icon">
+                    <i class="feather icon-chevron-left"></i>
+                </a>
+            </div>
+			<div class="mid-content"><h5 class="title">Add Delivery Address</h5></div>
+			<div class="right-content"></div>
+		</div>
+	</header>
+	<!-- Header -->
+	
+	<!-- Main Content Start -->
+	<main class="page-content space-top space-bottom2">
+		<div class="container">
+            <h6 class="title my-2 fw-semibold font-2">Contact Details</h6>
+            <form class="d-flex flex-column flex-md-row gap-3 mb-4">	
+                <div class="form-group w-100">
+                    <label for="FormName" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="FormName">
+                </div>
+                <div class="form-group w-100">
+                    <label for="FormNumber" class="form-label">Mobile No.</label>
+                    <input type="number" class="form-control" id="FormNumber">
+                </div>
+            </form>
+            <h6 class="title my-2 fw-semibold font-2">Address</h6>
+            <form class="d-flex flex-column gap-3 mb-4">	
+                <div class="form-group">
+                    <label for="PinCode" class="form-label">Pin Code</label>
+                    <input type="text" class="form-control" id="PinCode">
+                </div>
+                <div class="form-group">
+                    <label for="FormAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="FormAddress">
+                </div>
+                <div class="form-group">
+                    <label for="FormLocality" class="form-label">Locality/Town</label>
+                    <input type="text" class="form-control" id="FormLocality">
+                </div>
+                <div class="form-group">
+                    <label for="FormCity" class="form-label">City/District</label>
+                    <input type="text" class="form-control" id="FormCity">
+                </div>
+                <div class="form-group">
+                    <label for="FormState" class="form-label">State</label>
+                    <input type="text" class="form-control" id="FormState">
+                </div>
+            </form>
+            <h6 class="title my-2 fw-semibold font-2">Save Address As</h6>
+            <div class="d-flex align-items-center gap-2">
+                <div class="form-check custom-check">
+                    <input type="radio" class="btn-check" name="options-outlined" id="check1" autocomplete="off" checked="">
+                    <label class="btn btn-xs px-3 fw-semibold" for="check1">Home</label>
+                </div>
+                <div class="form-check custom-check">
+                    <input type="radio" class="btn-check" name="options-outlined" id="check2" autocomplete="off" checked="">
+                    <label class="btn btn-xs px-3 fw-semibold" for="check2">Shop</label>
+                </div>
+                <div class="form-check custom-check">
+                    <input type="radio" class="btn-check" name="options-outlined" id="check3" autocomplete="off" checked="">
+                    <label class="btn btn-xs px-3 fw-semibold" for="check3">Office</label>
+                </div>
+            </div>
+            <!-- Footer Fixed Button -->
+            <div class="footer-fixed-btn">
+                <a href="delivery-address.html" class="btn btn-lg btn-primary rounded-pill w-100 dz-shadow">Save Address</a>
+			</div>    
+            <!-- Footer Fixed Button -->    
+		</div>
+	</main>
+	<!-- Main Content End -->
+</div>  
+<!-- Scripts -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/settings.js"></script>
+<script src="assets/js/custom.js"></script>
+</body>
+</html>
